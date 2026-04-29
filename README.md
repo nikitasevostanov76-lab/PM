@@ -6,28 +6,19 @@
 <title>PM Learning Tracker</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f0; color: #1a1a1a; min-height: 100vh; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #141416; color: #f0f0f0; min-height: 100vh; }
 
 :root {
-  --accent: #1D9E75; --accent-light: #E1F5EE; --accent-mid: #5DCAA5; --accent-dark: #085041;
-  --amber: #BA7517; --amber-light: #FAEEDA;
-  --blue: #185FA5; --blue-light: #E6F1FB;
-  --coral: #D85A30; --coral-light: #FAECE7;
-  --purple: #534AB7; --purple-light: #EEEDFE;
-  --border: rgba(0,0,0,0.1); --border-strong: rgba(0,0,0,0.18);
-  --bg: #ffffff; --bg2: #f5f5f0; --bg3: #eeede8;
-  --text: #1a1a1a; --text2: #666; --text3: #999;
+  --accent: #1D9E75; --accent-light: #0a3326; --accent-mid: #5DCAA5; --accent-dark: #5DCAA5;
+  --amber: #f0a030; --amber-light: #2a1a00;
+  --blue: #5b9cf0; --blue-light: #0a1f3a;
+  --coral: #e87050; --coral-light: #2a0e05;
+  --purple: #9b93f0; --purple-light: #1a1640;
+  --border: rgba(255,255,255,0.09); --border-strong: rgba(255,255,255,0.18);
+  --bg: #1e1e22; --bg2: #141416; --bg3: #2a2a2e;
+  --text: #f0f0f0; --text2: #aaa; --text3: #666;
   --radius: 10px; --radius-lg: 14px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1c1c1e; --bg2: #2c2c2e; --bg3: #3a3a3c;
-    --text: #f0f0f0; --text2: #aaa; --text3: #666;
-    --border: rgba(255,255,255,0.1); --border-strong: rgba(255,255,255,0.18);
-    --accent-light: #0a3326; --blue-light: #0a1f3a; --amber-light: #2a1a00;
-    --coral-light: #2a0e05; --purple-light: #1a1640;
-  }
 }
 
 .header { background: var(--bg); border-bottom: 0.5px solid var(--border); padding: 16px 20px 0; position: sticky; top: 0; z-index: 100; }
